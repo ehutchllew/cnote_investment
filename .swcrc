@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "module": {
+    "type": "commonjs",
+    "strict": false,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": false
+  },
+  "jsc": {
+    "baseUrl": ".",
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false,
+      "dynamicImport": false,
+      "decorators": false
+    },
+    "paths": {
+      "src/*": ["./src/*"]
+    },
+    "transform": {},
+    "target": "es2021",
+    "loose": false,
+    "externalHelpers": false,
+    // Requires v1.2.50 or upper and requires target to be es2016 or upper.
+    "keepClassNames": false
+  },
+  "isModule": true,
+  "minify": false
+}

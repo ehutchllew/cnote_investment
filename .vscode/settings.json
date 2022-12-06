@@ -1,0 +1,17 @@
+{
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "sqltools.useNodeRuntime": true,
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "database": "\\\\wsl.localhost\\Ubuntu\\home\\ehutchllew\\Documents\\node\\cnote_assessment\\dist\\src\\db\\plata.db",
+      "name": "test"
+    }
+  ]
+}
